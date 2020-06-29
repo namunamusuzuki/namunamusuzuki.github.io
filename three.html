@@ -2,9 +2,9 @@
 <div id="contener">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Style-Type" contein="text/css />"
-    <title>C++�u�K��@TOP</title>
+    <title>C++講習会　TOP</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="favicon.ico">
     <script src="../lib/jquery-3.1.1.min.js"></script>
@@ -16,32 +16,32 @@
 
 
 
-<h1>C++�u�K��2019</h1>
-<h2>�R��</h2>
-<h3>�\�t�g�E�F�A��������ւ悤�����I</h3>
-<p>���̍u�K��́A�v���O���~���O�̊�b���w�Ԃ��߂ɍ��ꂽ���̂ł��B<br/>
-�ŏ��͗�������̂Ɏ��Ԃ������邩������܂���"���΂�邾��"<br/>
-�g�ɕt���̂ō��C�l�߂����Ȃ��悤�撣���Ă��������B</p>
+<h1>C++講習会2019</h1>
+<h2>３章</h2>
+<h3>ソフトウェア研究部会へようこそ！</h3>
+<p>この講習会は、プログラミングの基礎を学ぶために作られたものです。<br/>
+最初は理解するのに時間がかかるかもしれませんが"やればやるだけ"<br/>
+身に付くので根気詰めすぎないよう頑張ってください。</p>
 
 <nav class="navigation">
  
- <h3>�u�K�ꗗ</h3>
+ <h3>講習一覧</h3>
             <ol>
                 <li><a href="kosyukai2019.html"> TOP</a></li>
-                <li><a href="setup2019.html">�v���W�F�N�g�쐬</a></li>
-                <li><a href="zero.html">0��</a></li>
-                <li><a href="one.html">1��</a></li>
-                <li><a href="two.html">2��</a></li>
-                <li><a href="three.html">3��</a></li>
-                <li><a href="four.html">4��</a></li>
-                <li><a href="five.html">5��</a></li>
-                <li><a href="six.html">6��</a></li>
-                <li><a href="seven.html">7��</a></li>
-                <li><a href="eight.html">8��</a></li>
-                <li><a href="nine.html">9��</a></li>
-                <li><a href="ten.html">10��</a></li>
-                <li><a href="MultiDimarray.html">�������z��</a></li>
-                <li><a href="namespace.html">���O���</a></li>
+                <li><a href="setup2019.html">プロジェクト作成</a></li>
+                <li><a href="zero.html">0章</a></li>
+                <li><a href="one.html">1章</a></li>
+                <li><a href="two.html">2章</a></li>
+                <li><a href="three.html">3章</a></li>
+                <li><a href="four.html">4章</a></li>
+                <li><a href="five.html">5章</a></li>
+                <li><a href="six.html">6章</a></li>
+                <li><a href="seven.html">7章</a></li>
+                <li><a href="eight.html">8章</a></li>
+                <li><a href="nine.html">9章</a></li>
+                <li><a href="ten.html">10章</a></li>
+                <li><a href="MultiDimarray.html">多次元配列</a></li>
+                <li><a href="namespace.html">名前空間</a></li>
                
             <ol style="display:none;">
             </ol>
@@ -49,15 +49,15 @@
          </nav>
          </nav>
         <main>
-        <h1>�ڕW</h1>
+        <h1>目標</h1>
             <div class="paragraph">
                 
-                <p>�@�l�����Z���ł���悤�ɂȂ�B</p>
+                <p>　四則演算ができるようになる。</p>
             </div>
-            <h3>������</h3>
+            <h3>語句説明</h3>
             <div class="paragraph">
-                <h2>�Z�p���Z�q</h2>
-                <p>�@+(����)�A-(����)�A*(������)�A/(����)�A%(�]��)�̂��ƁB</p>
+                <h2>算術演算子</h2>
+                <p>　+(足す)、-(引く)、*(かける)、/(割る)、%(余り)のこと。</p>
             </div>
             <pre><code>
 #include &ltiostream&gt
@@ -90,28 +90,28 @@ int main(void) {
 	return 0;
 }
 </code></pre>
-            <h3>�T���v�����</h3>
+            <h3>サンプル解説</h3>
             </p>
                  <p class="description">
                 a+b,a-b,a*b<br />
-                ���̂܂܁B�v�����܂�܂̓������o��Ǝv����B<br />
+                そのまま。思ったまんまの答えが出ると思うよ。<br />
                 a/b<br />
-                �����銄��Z�̏����o���B�������m�̏ꍇ�A�����͐؂�̂Ă���B<br />
+                いわゆる割り算の商を出す。整数同士の場合、少数は切り捨てられる。<br />
                 a%b<br />
-                �����銄��Z�̗]����o���B�������m�ł����g�����Ƃ��ł��Ȃ��B<br />
+                いわゆる割り算の余りを出す。整数同士でしか使うことができない。<br />
                 e++,e--<br />
-                e�̒l��1���₷�B1���炷�B<br />
+                eの値を1増やす。1減らす。<br />
                 e+=10<br />
-                e�̒l��10���₷�B-,*,/,%�ł����邪����܂�g��Ȃ����ߏڂ������Ƃ͎����Ŋm���߂Ă݂悤�B<br /><br />
+                eの値を10増やす。-,*,/,%版もあるがあんまり使わないため詳しいことは自分で確かめてみよう。<br /><br />
                 c+d<br />
-                �����񓯎m��g�ݍ��킹�A�ʂ̕��������邱�Ƃ��ł���B+�����Ȃ��̂Œ��ӁB
+                文字列同士を組み合わせ、別の文字列を作ることができる。+しかないので注意。
             </p><br />
             
-            <h5>�ۑ�</h5>
+            <h5>課題</h5>
             <div class="paragraph">
                 <ul>
-                    <li>�E�T���v���R�[�h�����s���ďo�͂��m���߂�B</li>
-                    <li>�E�Z�p���Z�q�����낢��ς��Ă݂ďo�͂��m���߂�B</li>
+                    <li>・サンプルコードを実行して出力を確かめる。</li>
+                    <li>・算術演算子をいろいろ変えてみて出力を確かめる。</li>
                 </ul>
             </div><br />
         </main>
